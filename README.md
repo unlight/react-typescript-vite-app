@@ -2,7 +2,8 @@
 
 ## Todo
 
--   jest unit tests
--   postcss (config), remove refixes in index.css
--   https://github.com/aleclarson/vite-tsconfig-paths
+-   ESLint
+-   Cypress e2e
+-   postcss (config), remove prefixes in index.css
 -   https://github.com/antfu/purge-icons/tree/main/packages/vite-plugin-purge-icons
+-   Github actions
