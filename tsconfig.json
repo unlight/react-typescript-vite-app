@@ -10,8 +10,8 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["dom", "esnext"],
-    "types": ["vite/client"],
     "allowJs": false,
+    "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -23,5 +23,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["./src"]
+  "include": ["vite/client.d.ts", "src"]
 }
