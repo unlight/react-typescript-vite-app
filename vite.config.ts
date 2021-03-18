@@ -1,7 +1,14 @@
-import { defineConfig } from 'vite';
+import { defineConfig, ConfigEnv } from 'vite';
 import reactRefresh from '@vitejs/plugin-react-refresh';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 // https://vitejs.dev/config/
-export default defineConfig({
-    plugins: [reactRefresh()],
-});
+export default function (env: ConfigEnv) {
+    return defineConfig({
+        plugins: [tsconfigPaths(), reactRefresh()],
+        build: {
+            assetsDir: '.',
+            brotliSize: false,
+        },
+    });
+}
