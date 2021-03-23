@@ -17,6 +17,6 @@ module.exports = ({ env, cwd }) => {
     ];
 
     return {
-        plugins: plugins.filter(Boolean),
+        plugins,
     };
 };

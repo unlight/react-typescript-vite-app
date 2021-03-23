@@ -8,5 +8,8 @@
 
 ## Resources
 
+-   https://vitejs.dev/
+-   https://github.com/vitejs/awesome-vite
 -   https://github.com/anncwb/vue-vben-admin
 -   https://github.com/adamwathan/tailwind-jit-vite-example
+-   https://michalzalecki.com/elegant-frontend-architecture/
