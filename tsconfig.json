@@ -23,5 +23,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["vite/client.d.ts", "src"]
+  "include": ["src"]
 }
