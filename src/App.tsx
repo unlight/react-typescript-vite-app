@@ -8,7 +8,7 @@ export function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <div className="App">
+        <div className="App container mx-auto my-1">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>Hello Vite + React!</p>
@@ -38,6 +38,26 @@ export function App() {
                     >
                         Vite Docs
                     </a>
+                </p>
+                <p className="flex-row App-stack">
+                    Stack
+                    <span
+                        className="iconify"
+                        data-icon="fa-brands:react"
+                        data-inline="false"
+                    >
+                        React
+                    </span>
+                    <span className="iconify" data-icon="cib:jest" data-inline="false">
+                        Jest
+                    </span>
+                    <span
+                        className="iconify"
+                        data-icon="cib:eslint"
+                        data-inline="false"
+                    >
+                        ESLint
+                    </span>
                 </p>
             </header>
         </div>

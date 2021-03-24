@@ -8,6 +8,7 @@
 ## Resources
 
 -   https://vitejs.dev/
+-   https://iconify.design/icon-sets/
 -   https://github.com/vitejs/awesome-vite
 -   https://github.com/anncwb/vue-vben-admin
 -   https://github.com/adamwathan/tailwind-jit-vite-example

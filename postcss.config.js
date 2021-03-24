@@ -1,6 +1,7 @@
 module.exports = ({ env, cwd }) => {
     const isProduction = env === 'production';
     const plugins = [
+        require('@tailwindcss/jit')(),
         require('autoprefixer')(),
         isProduction
             ? require('cssnano')({
@@ -13,7 +14,7 @@ module.exports = ({ env, cwd }) => {
                       },
                   ],
               })
-            : undefined,
+            : false,
     ];
 
     return {
