@@ -16,6 +16,8 @@ module.exports = {
         'plugin:regexp/recommended',
         'plugin:total-functions/recommended',
         'plugin:etc/recommended',
+        'plugin:testing-library/recommended',
+        'plugin:testing-library/react',
         'plugin:prettier/recommended',
         'prettier',
     ],
@@ -42,6 +44,8 @@ module.exports = {
         'promise',
         'sonarjs',
         'etc',
+        'testing-library',
+        '@kyleshevlin',
         'only-warn',
     ],
     ignorePatterns: ['@generated/**', '*.config.js', '.*rc.js'],
@@ -122,6 +126,8 @@ module.exports = {
                 accessorPairPositioning: 'getThenSet',
             },
         ],
+        // @kyleshevlin
+        '@kyleshevlin/prefer-custom-hooks': 1,
     },
     overrides: [
         {
