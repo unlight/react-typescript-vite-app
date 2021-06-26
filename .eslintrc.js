@@ -16,7 +16,7 @@ module.exports = {
         'plugin:regexp/recommended',
         'plugin:total-functions/recommended',
         'plugin:etc/recommended',
-        'plugin:testing-library/recommended',
+        'plugin:testing-library/dom',
         'plugin:testing-library/react',
         'plugin:prettier/recommended',
         'prettier',
