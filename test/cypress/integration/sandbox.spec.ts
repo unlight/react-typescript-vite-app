@@ -10,7 +10,7 @@ describe('Sandbox', () => {
 
         cy.get('h1').then($header => {
             const text = $header.text();
-            expect(text).toEqual('Sandbox11');
+            expect(text).toEqual('Sandbox');
         });
     });
 });

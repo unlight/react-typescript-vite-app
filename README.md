@@ -18,3 +18,4 @@
 -   https://github.com/brunopulis/awesome-cypress
 -   https://github.com/ava-labs/avalanche-wallet/tree/master/cypress
 -   https://github.com/AsadHasan/just-eat-cypress-tests/tree/main/cypress
+-   https://github.com/crswll/vite-preact-tailwind-starter
